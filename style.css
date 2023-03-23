@@ -810,6 +810,12 @@ blockquote p {
 /* *********************************************************
   Quotes Section 
 ********************************************************* */
+.image-item {
+  width: 70%;
+  height: 50%;
+  object-fit: cover;
+}
+
 .quotes-icon {
   color: #f48d5d;
   font-size: 4em;
