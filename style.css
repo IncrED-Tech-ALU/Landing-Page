@@ -947,6 +947,10 @@ blockquote p {
   margin-top: 1em;
 }
 
+.transition {
+  padding-top: 150px;
+}
+
 /* *********************************************************
   Pricing Section
 ********************************************************* */
@@ -1452,10 +1456,11 @@ footer p, footer a {
      -moz-border-radius: 5px;
           border-radius: 5px;
   background: #fff;
+  padding: 10px 0px;
 }
 
 .staff-info {
-  padding: 0 10px;
+  padding: 0px 10px;
 }
 
 .staff-info span {
@@ -1466,7 +1471,7 @@ footer p, footer a {
   position: relative;
   display: table;
   margin: 0 auto;
-  background: #fff;
+  background: #ECF0F1;
 }
 
 .staff-img {
@@ -1538,6 +1543,12 @@ footer p, footer a {
 .staff-content:hover .team-social {
   opacity: 1;
   transform: translateY(0);
+}
+
+.fill-grey {
+  fill: #2C2D31;
+  stroke: #2C2D31;
+  background-color: #ECF0F1;
 }
 
 /* *********************************************************
