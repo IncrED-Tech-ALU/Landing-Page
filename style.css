@@ -851,6 +851,9 @@ blockquote p {
 /* *********************************************************
   Blog Section
 ********************************************************* */
+.illustration {
+  padding-bottom: 40px;
+}
 
 .blog-post-wrap, .blog-wrap-single {
   padding-top: 6em;
@@ -1500,6 +1503,7 @@ footer p, footer a {
 .staff-content span {
   display: inline-block;
   margin-bottom: 10px;
+  color: #777777;
 }
 
 .team-social {

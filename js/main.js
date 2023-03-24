@@ -54,7 +54,7 @@ $(document).ready(function() {
 //Loader
 setTimeout(function(){
     $(".loader-overlay").fadeOut("slow");
-}, 5000)
+}, 2500)
 
 //Counter
 $('.counter').counterUp({
@@ -74,7 +74,7 @@ $('a[data-rel^=lightcase]').lightcase();
 // Carousels   
   $('.cl-client-carousel').owlCarousel({
       pagination:true,
-      slideSpeed : 300,
+      slideSpeed : 1100,
       paginationSpeed : 400,
       singleItem:true,
       autoPlay:true,
