@@ -52,9 +52,9 @@ $(document).ready(function() {
   }(jQuery));
 
 //Loader
-// $(window).load(function() {
-// 	$(".loader-overlay").fadeOut("slow");
-// })
+setTimeout(function(){
+    $(".loader-overlay").fadeOut("slow");
+}, 5000)
 
 //Counter
 $('.counter').counterUp({
